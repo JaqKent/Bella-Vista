@@ -1,0 +1,40 @@
+.navigation {
+  height: 110px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50px 50px;
+  background: $white;
+  h1 {
+    grid-column: 2/3;
+    grid-row: 1;
+    font-size: 40px;
+    text-align: center;
+  }
+  .menu {
+    grid-column: 2/3;
+    grid-row: 2;
+    font-size: 20px;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background: $white;
+      overflow: hidden;
+    }
+    li {
+      float: left;
+    }
+    a {
+      display: block;
+      color: $black;
+      text-align: center;
+      padding: 15px 15px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: $magenta;
+      color: whitesmoke;
+    }
+  }
+}

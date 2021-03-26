@@ -1,0 +1,44 @@
+.main {
+  background: $white;
+  font-family: $PrimaryFont;
+  font-size: 20px;
+
+  .localization {
+    .map {
+      @include position(50% 50%);
+    }
+    img {
+      width: 600px;
+      height: 600px;
+      margin: auto;
+      grid-column-start: 1;
+      grid-row-start: 1;
+    }
+    iframe {
+      width: 600px;
+      height: 600px;
+      margin: auto;
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+  }
+  .data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+
+    .graphic {
+      grid-column: 1/2;
+      grid-row-start: 1;
+      text-align: left;
+    }
+    .list {
+      grid-column: 2/3;
+      grid-row-start: 1;
+    }
+    .flag {
+      grid-column: 3/4;
+      grid-row-start: 1;
+    }
+  }
+}

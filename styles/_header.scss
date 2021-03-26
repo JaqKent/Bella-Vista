@@ -1,0 +1,15 @@
+.header {
+  @include position(auto);
+  font-family: $PrimaryFont;
+  background: $white;
+
+  img {
+    width: 750px;
+    height: 300px;
+    grid-column-start: 1;
+  }
+  p {
+    font-size: 27px;
+    grid-column-start: 2;
+  }
+}

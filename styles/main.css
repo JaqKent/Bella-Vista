@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap");
+.footer {
+  width: 100%;
+  height: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 50px 50px;
+  grid-template-rows: 50px 50px;
+  background: #08d9d6;
+  font-family: monospace, sans-serif;
+  text-align: center;
+}
+
+.footer .icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.main {
+  background: #f6f7d4;
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 20px;
+}
+
+.main .localization .map {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.main .localization img {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+.main .localization iframe {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+.main .data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1;
+  grid-template-rows: 1;
+}
+
+.main .data .graphic {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  text-align: left;
+}
+
+.main .data .list {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+.main .data .flag {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  font-family: "Grenze Gotisch", cursive;
+  background: #f6f7d4;
+}
+
+.header img {
+  width: 750px;
+  height: 300px;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+
+.header p {
+  font-size: 27px;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+
+.navigation {
+  height: 110px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 50px 50px;
+  grid-template-rows: 50px 50px;
+  background: #f6f7d4;
+}
+
+.navigation h1 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  font-size: 40px;
+  text-align: center;
+}
+
+.navigation .menu {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  font-size: 20px;
+}
+
+.navigation .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #f6f7d4;
+  overflow: hidden;
+}
+
+.navigation .menu li {
+  float: left;
+}
+
+.navigation .menu a {
+  display: block;
+  color: #252a34;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+.navigation .menu a:hover {
+  background-color: #ff2e63;
+  color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */
